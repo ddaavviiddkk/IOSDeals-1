@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # iOS Deals 
 
 ## Table of Contents
@@ -29,12 +32,13 @@ Application allow users to input information regarding various deals in their ne
 1. Users have accounts and can log into them
 2. Users can post deals with price and store location
 3. Users choose to see all stores near them or all deals near them 
-4. Users can press into the store, or deals to find more details about it. 
+
 
 **Optional Nice-to-have Stories**
 1. Users can add image to their profile 
 2. Users are rewarded with point system 
 3. Users can post a picture with their deal 
+4. 4. Users can press into the store, or deals to find more details about it.
 
 ### 2. Screen Archetypes
 
@@ -83,3 +87,46 @@ Application allow users to input information regarding various deals in their ne
     * Stores Stream
     * Deals Stream
     * Store's Deals Stream
+
+## Wireframes
+<img src="https://i.imgur.com/82wOpJq.png" width=600><br>
+<img src="https://i.imgur.com/MxzsIJs.png" width=600><br>
+<img src="https://i.imgur.com/KP7InBq.png" width=600><br>
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
+<img src="https://slack-imgs.com/?c=1&o1=ro&url=http%3A%2F%2Fg.recordit.co%2FQ0eK0uqFdZ.gif" width=600><br>
+
+## Schema 
+### Models
+
+User
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| username     | String     | Unique Username Set by User     |
+| password     | String     |  Password set by User    |
+| userImage     | URL     |   Profile Picture   |
+
+
+Deals Posts
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| product |  String    | Name of product/deal     |
+| author     | Pointer to user    |  User that submitted deal    |
+| dealDescription     | String     |   A description of the deal   |
+| date     | DateTime     |   When the user posts the deal   |
+| expirationDate     | DateTime     |   When the deal expires (optional)   |
+| dealPrice     | Float     |   Price of deal   |
+| normalPrice     | Float     |   Price of non deal price (optional)   |
+| dealPhoto     | URL     |   Photo of deal being posted (optional)  |
+| brand     | String     |   Brand of deal (optional)   |
+| Store     | String     |  name of store from dropdown   |
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1200px-Lion_waiting_in_Namibia.jpg" width=600><br>
+
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
