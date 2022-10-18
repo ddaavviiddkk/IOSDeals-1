@@ -127,26 +127,21 @@ Deals Posts
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1200px-Lion_waiting_in_Namibia.jpg" width=600><br>
 
 ### Networking
-- [Add list of network requests by screen ]
-*Login Screen
-  *(Create/POST) – create new account
-  *(Read/GET)- login
+**List of network requests by screen**
+* Login Screen
+   * (Create/POST) create new account
+   * (Read/GET) login
+* Deals Stream
+   * (Read/GET) query all nearby deals based on location of user
+* Stores Stream
+    * (Read/GET) query all nearby stores based on location of user
+* Store's Deals Stream
+    * (Read/GET) query all deals in specific store
+* Deal Detail
+    * (Read/GET) get details on deal
+* Deal Creation
+    * (Create/POST) create new deal
+    * (Delete) delete deal (maybe?)
 
-*Stores Stream
-  *(Read/GET)- query all nearby stores based on location of user
-
-*Deals Stream
-  *(Read/GET)-query all deals nearby based on location of user
-
-*Store’s Deals Stream
-  *(Read/GET)-query all deals in specific store
-
-*Deal Detail
-  *(Read/GET)-get details on deal
-
-*Deal Creation
-  *(Create/POST)- create new deal
-  *(Delete)- delete deal (maybe?)
-
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+[Create basic snippets for each Parse network request]
+[OPTIONAL: List endpoints if using existing API such as Yelp]
