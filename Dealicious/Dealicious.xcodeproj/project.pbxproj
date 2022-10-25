@@ -16,6 +16,7 @@
 		6785741A28F52EE700467138 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785741928F52EE700467138 /* DealsViewController.swift */; };
 		6785741C28F52F5300467138 /* DealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785741B28F52F5300467138 /* DealCell.swift */; };
 		6785741E28F540ED00467138 /* NewDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785741D28F540ED00467138 /* NewDealViewController.swift */; };
+		67E9939D2908749800EB9075 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9939C2908749800EB9075 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6785741928F52EE700467138 /* DealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
 		6785741B28F52F5300467138 /* DealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCell.swift; sourceTree = "<group>"; };
 		6785741D28F540ED00467138 /* NewDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDealViewController.swift; sourceTree = "<group>"; };
+		67E9939C2908749800EB9075 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6785741928F52EE700467138 /* DealsViewController.swift */,
 				6785741B28F52F5300467138 /* DealCell.swift */,
 				6785741D28F540ED00467138 /* NewDealViewController.swift */,
+				67E9939C2908749800EB9075 /* LoginViewController.swift */,
 			);
 			path = Dealicious;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E9939D2908749800EB9075 /* LoginViewController.swift in Sources */,
 				6785741A28F52EE700467138 /* DealsViewController.swift in Sources */,
 				6785740628F5193E00467138 /* ViewController.swift in Sources */,
 				6785740228F5193E00467138 /* AppDelegate.swift in Sources */,
