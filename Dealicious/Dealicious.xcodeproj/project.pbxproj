@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C5B307529073DAE003E1E9C /* DealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B307429073DAE003E1E9C /* DealDetailsViewController.swift */; };
 		6785740228F5193E00467138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785740128F5193E00467138 /* AppDelegate.swift */; };
 		6785740428F5193E00467138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785740328F5193E00467138 /* SceneDelegate.swift */; };
-		6785740628F5193E00467138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785740528F5193E00467138 /* ViewController.swift */; };
+		6785740628F5193E00467138 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785740528F5193E00467138 /* LoginViewController.swift */; };
 		6785740928F5193E00467138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6785740728F5193E00467138 /* Main.storyboard */; };
 		6785740B28F5193F00467138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6785740A28F5193F00467138 /* Assets.xcassets */; };
 		6785740E28F5193F00467138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6785740C28F5193F00467138 /* LaunchScreen.storyboard */; };
 		6785741A28F52EE700467138 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785741928F52EE700467138 /* DealsViewController.swift */; };
 		6785741C28F52F5300467138 /* DealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785741B28F52F5300467138 /* DealCell.swift */; };
 		6785741E28F540ED00467138 /* NewDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785741D28F540ED00467138 /* NewDealViewController.swift */; };
+		C43700ACCA2A16242B0B8AA7 /* Pods_Dealicious.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE07B46568FB89C2D3DB974B /* Pods_Dealicious.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,7 @@
 		678573FE28F5193E00467138 /* Dealicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dealicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6785740128F5193E00467138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6785740328F5193E00467138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6785740528F5193E00467138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6785740528F5193E00467138 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6785740828F5193E00467138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6785740A28F5193F00467138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6785740D28F5193F00467138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +33,9 @@
 		6785741928F52EE700467138 /* DealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
 		6785741B28F52F5300467138 /* DealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCell.swift; sourceTree = "<group>"; };
 		6785741D28F540ED00467138 /* NewDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDealViewController.swift; sourceTree = "<group>"; };
+		D4150C8A237446E01D55580D /* Pods-Dealicious.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealicious.debug.xcconfig"; path = "Target Support Files/Pods-Dealicious/Pods-Dealicious.debug.xcconfig"; sourceTree = "<group>"; };
+		EE07B46568FB89C2D3DB974B /* Pods_Dealicious.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dealicious.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DEE9CF5626899DDCA11F78 /* Pods-Dealicious.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealicious.release.xcconfig"; path = "Target Support Files/Pods-Dealicious/Pods-Dealicious.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43700ACCA2A16242B0B8AA7 /* Pods_Dealicious.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A21AA55848145CCC69D02E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE07B46568FB89C2D3DB974B /* Pods_Dealicious.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		678573F528F5193E00467138 = {
 			isa = PBXGroup;
 			children = (
 				6785740028F5193E00467138 /* Dealicious */,
 				678573FF28F5193E00467138 /* Products */,
+				07A21AA55848145CCC69D02E /* Frameworks */,
+				C0D03FE878059B4BA49A39FA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,7 +81,7 @@
 			children = (
 				6785740128F5193E00467138 /* AppDelegate.swift */,
 				6785740328F5193E00467138 /* SceneDelegate.swift */,
-				6785740528F5193E00467138 /* ViewController.swift */,
+				6785740528F5193E00467138 /* LoginViewController.swift */,
 				6785740728F5193E00467138 /* Main.storyboard */,
 				6785740A28F5193F00467138 /* Assets.xcassets */,
 				6785740C28F5193F00467138 /* LaunchScreen.storyboard */,
@@ -79,6 +94,16 @@
 			path = Dealicious;
 			sourceTree = "<group>";
 		};
+		C0D03FE878059B4BA49A39FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4150C8A237446E01D55580D /* Pods-Dealicious.debug.xcconfig */,
+				F7DEE9CF5626899DDCA11F78 /* Pods-Dealicious.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6785741228F5193F00467138 /* Build configuration list for PBXNativeTarget "Dealicious" */;
 			buildPhases = (
+				409454A0B10F719D1F47F539 /* [CP] Check Pods Manifest.lock */,
 				678573FA28F5193E00467138 /* Sources */,
 				678573FB28F5193E00467138 /* Frameworks */,
 				678573FC28F5193E00467138 /* Resources */,
+				EA635D3B509EA6B60CC585AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +172,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		409454A0B10F719D1F47F539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dealicious-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA635D3B509EA6B60CC585AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dealicious/Pods-Dealicious-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dealicious/Pods-Dealicious-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dealicious/Pods-Dealicious-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		678573FA28F5193E00467138 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6785741A28F52EE700467138 /* DealsViewController.swift in Sources */,
-				6785740628F5193E00467138 /* ViewController.swift in Sources */,
+				6785740628F5193E00467138 /* LoginViewController.swift in Sources */,
 				6785740228F5193E00467138 /* AppDelegate.swift in Sources */,
 				6785741E28F540ED00467138 /* NewDealViewController.swift in Sources */,
 				6785741C28F52F5300467138 /* DealCell.swift in Sources */,
@@ -298,6 +367,7 @@
 		};
 		6785741328F5193F00467138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4150C8A237446E01D55580D /* Pods-Dealicious.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +385,7 @@
 		};
 		6785741428F5193F00467138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DEE9CF5626899DDCA11F78 /* Pods-Dealicious.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
